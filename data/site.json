@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "en": { "image": "assets/hero/hero.jpg", "alt": "Beaded bags hero image" },
+    "ru": { "image": "assets/hero/hero.jpg", "alt": "Обложка с сумками из бусин" },
+    "kz": { "image": "assets/hero/hero.jpg", "alt": "Моншақтан жасалған сөмкелер мұқабасы" }
+  },
+  "links": {
+    "instagram": "https://instagram.com/your_handle",
+    "email": "hello@example.com"
+  },
+  "whatsapp": {
+    "phone": "+77053116047",
+    "genericMessage": {
+      "en": "Hello! I have a question.",
+      "ru": "Здравствуйте! У меня есть вопрос.",
+      "kz": "Сәлеметсіз бе! Сұрағым бар."
+    },
+    "customOrderMessage": {
+      "en": "Hi! I'd like a custom beaded bag. Can we discuss details?",
+      "ru": "Здравствуйте! Хочу сумку на заказ. Можно обсудить детали?",
+      "kz": "Сәлеметсіз бе! Тапсырыспен сөмке жасағым келеді. Толығырақ сөйлессек бола ма?"
+    },
+    "buyMessage": {
+      "en": "Hi! I want to buy: {title} ({price}).",
+      "ru": "Здравствуйте! Хочу купить: {title} ({price}).",
+      "kz": "Сәлеметсіз бе! Сатып алғым келеді: {title} ({price})."
+    }
+  },
+  "footerNote": {
+    "en": "Handmade in Kazakhstan",
+    "ru": "Ручная работа, Казахстан",
+    "kz": "Қолөнер, Қазақстан"
+  }
+}

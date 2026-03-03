@@ -1,0 +1,41 @@
+{
+  "en": {
+    "hero.title": "Handmade beaded bags",
+    "hero.subtitle": "Minimal landing. The bags are the focus.",
+    "hero.openCatalog": "Open catalog",
+    "hero.customOrder": "Custom order",
+
+    "catalog.hint": "Scroll and tap any item to see details.",
+    "catalog.searchPlaceholder": "Search by name…",
+    "catalog.empty": "No items found.",
+    "catalog.buy": "Buy on WhatsApp",
+
+    "footer.follow": "Contacts"
+  },
+  "ru": {
+    "hero.title": "Сумки из бусин ручной работы",
+    "hero.subtitle": "Минимализм. Акцент на самих сумках.",
+    "hero.openCatalog": "Открыть каталог",
+    "hero.customOrder": "Заказать",
+
+    "catalog.hint": "Нажмите на сумку, чтобы увидеть описание и купить.",
+    "catalog.searchPlaceholder": "Поиск по названию…",
+    "catalog.empty": "Ничего не найдено.",
+    "catalog.buy": "Купить в WhatsApp",
+
+    "footer.follow": "Контакты"
+  },
+  "kz": {
+    "hero.title": "Қолмен жасалған моншақ сөмкелер",
+    "hero.subtitle": "Минимализм. Негізгі назар — сөмкелер.",
+    "hero.openCatalog": "Каталогты ашу",
+    "hero.customOrder": "Тапсырыс беру",
+
+    "catalog.hint": "Сипаттама мен сатып алу үшін сөмкені түртіңіз.",
+    "catalog.searchPlaceholder": "Атауы бойынша іздеу…",
+    "catalog.empty": "Ештеңе табылмады.",
+    "catalog.buy": "WhatsApp арқылы сатып алу",
+
+    "footer.follow": "Байланыс"
+  }
+}

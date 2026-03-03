@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <title>Beaded Bags</title>
+
+  <link rel="preload" href="css/base.css" as="style">
+  <link rel="preload" href="css/hero.css" as="style">
+  <link rel="preload" href="css/catalog.css" as="style">
+  <link rel="preload" href="css/footer.css" as="style">
+  <link rel="preload" href="css/anim.css" as="style">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/anim.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+  <main class="page" id="top">
+    <section class="hero" aria-label="Hero">
+      <div class="hero__media">
+        <img id="heroImg" class="hero__img" alt="" decoding="async" fetchpriority="high">
+        <div class="hero__veil" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__toprow">
+          <div class="lang" role="group" aria-label="Language">
+            <button class="lang__btn" type="button" data-lang="en">EN</button>
+            <button class="lang__btn" type="button" data-lang="ru">RU</button>
+            <button class="lang__btn" type="button" data-lang="kz">KZ</button>
+          </div>
+
+          <a class="btn btn--glass" id="customOrderBtn" target="_blank" rel="noopener" href="#">
+            <span data-i18n="hero.customOrder"></span>
+          </a>
+        </div>
+
+        <h1 class="hero__title" data-i18n="hero.title"></h1>
+        <p class="hero__sub" data-i18n="hero.subtitle"></p>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-label="Catalog">
+      <div class="grid" id="grid" aria-live="polite"></div>
+
+      <div class="empty" id="empty" hidden>
+        <span data-i18n="catalog.empty"></span>
+      </div>
+    </section>
+
+    <footer class="footer" aria-label="Footer">
+      <div class="footer__center">
+        <div class="footer__links">
+          <a class="footer__link" id="igLink" target="_blank" rel="noopener" href="#">Instagram</a>
+          <span class="footer__sep">•</span>
+          <a class="footer__link" id="waLink" target="_blank" rel="noopener" href="#">WhatsApp</a>
+          <span class="footer__sep">•</span>
+          <a class="footer__link" id="mailLink" href="#">Email</a>
+        </div>
+        <div class="footer__meta">
+          <span>© <span id="year"></span></span>
+          <span class="footer__sep">•</span>
+          <span id="footerNote"></span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div class="modal" id="modal" hidden aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" aria-label="Close" data-modal-close>×</button>
+
+      <div class="modal__media">
+        <img class="modal__img" id="modalImg" alt="" decoding="async">
+      </div>
+
+      <div class="modal__body">
+        <div class="modal__top">
+          <h3 class="modal__title" id="modalTitle"></h3>
+          <div class="modal__price" id="modalPrice"></div>
+        </div>
+        <p class="modal__desc" id="modalDesc"></p>
+        <button class="buy" id="modalBuy" type="button"></button>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/tilt.js"></script>
+  <script defer src="js/catalog.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>

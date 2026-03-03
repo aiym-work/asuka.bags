@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "id": "bag-001", "title": "Ice bag", "image": "1.jpg", "price": "₸ 15 000", "description": { "en": "Crystal-clear beads with icy shine. Minimal silhouette, elegant finish.", "ru": "Прозрачные бусины с ледяным блеском. Минималистичный силуэт.", "kz": "Мұздай жылтыр моншақтар. Минимал пішін." } },
+    { "id": "bag-002", "title": "Floral bag", "image": "2.jpg", "price": "₸ 25 000", "description": { "en": "Floral pattern with glossy beads. Statement piece for evening outfits.", "ru": "Цветочный узор из глянцевых бусин. Акцентная модель.", "kz": "Гүл өрнекті жылтыр моншақтар. Ерекше модель." } },
+    { "id": "bag-003", "title": "Pink chic", "image": "3.jpg", "price": "₸ 17 000", "description": { "en": "Soft pink beaded texture. Compact and refined.", "ru": "Нежно-розовая текстура. Компактная и аккуратная.", "kz": "Жұмсақ қызғылт текстура. Ықшам әрі әдемі." } },
+    { "id": "bag-004", "title": "White mini", "image": "4.jpg", "price": "₸ 16 000", "description": { "en": "White mini bag with pearl finish. Lightweight and versatile.", "ru": "Белая мини-сумка с жемчужным блеском. Лёгкая и универсальная.", "kz": "Ақ мини сөмке. Жеңіл және әмбебап." } }
+  ]
+}
